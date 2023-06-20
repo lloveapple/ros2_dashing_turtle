@@ -1,0 +1,19 @@
+[100%] Built target ntf
+[100%] Built target ntf
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf//launch
+-- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf//launch/ntf.py
+-- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf//launch/ntf.launch
+-- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/lib/ntf/ntf
+-- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ament_index/resource_index/package_run_dependencies/ntf
+-- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ament_index/resource_index/parent_prefix_path/ntf
+-- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf/environment/path.sh
+-- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf/local_setup.bash
+-- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf/local_setup.sh
+-- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf/local_setup.zsh
+-- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ament_index/resource_index/packages/ntf
+-- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf/cmake/ntfConfig.cmake
+-- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf/cmake/ntfConfig-version.cmake
+-- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf/package.xml

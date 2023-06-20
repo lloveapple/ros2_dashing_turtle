@@ -1,0 +1,4 @@
+Invoking command in '/home/yx/code/ros2study/2/src/ntf/build/ntf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/ntf/build/ntf -- -j12 -l12
+Invoked command in '/home/yx/code/ros2study/2/src/ntf/build/ntf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/ntf/build/ntf -- -j12 -l12
+Invoking command in '/home/yx/code/ros2study/2/src/ntf/build/ntf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/ntf/build/ntf --target install -- -j12 -l12
+Invoked command in '/home/yx/code/ros2study/2/src/ntf/build/ntf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/ntf/build/ntf --target install -- -j12 -l12

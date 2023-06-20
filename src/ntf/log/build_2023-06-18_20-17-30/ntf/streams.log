@@ -1,0 +1,27 @@
+[0.013s] Invoking command in '/home/yx/code/ros2study/2/src/ntf/build/ntf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/ntf/build/ntf -- -j12 -l12
+[0.045s] [35m[1mScanning dependencies of target ntf[0m
+[0.061s] [ 50%] [32mBuilding CXX object CMakeFiles/ntf.dir/src/ntf.cpp.o[0m
+[2.130s] [100%] [32m[1mLinking CXX executable ntf[0m
+[2.245s] [100%] Built target ntf
+[2.253s] Invoked command in '/home/yx/code/ros2study/2/src/ntf/build/ntf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/ntf/build/ntf -- -j12 -l12
+[2.279s] Invoking command in '/home/yx/code/ros2study/2/src/ntf/build/ntf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/ntf/build/ntf --target install -- -j12 -l12
+[2.316s] [100%] Built target ntf
+[2.328s] [36mInstall the project...[0m
+[2.334s] -- Install configuration: ""
+[2.334s] -- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf//launch
+[2.334s] -- Installing: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf//launch/ntf.py
+[2.335s] -- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf//launch/ntf.launch
+[2.335s] -- Installing: /home/yx/code/ros2study/2/src/ntf/install/ntf/lib/ntf/ntf
+[2.335s] -- Set runtime path of "/home/yx/code/ros2study/2/src/ntf/install/ntf/lib/ntf/ntf" to ""
+[2.335s] -- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ament_index/resource_index/package_run_dependencies/ntf
+[2.336s] -- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ament_index/resource_index/parent_prefix_path/ntf
+[2.336s] -- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf/environment/ament_prefix_path.sh
+[2.336s] -- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf/environment/path.sh
+[2.336s] -- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf/local_setup.bash
+[2.336s] -- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf/local_setup.sh
+[2.336s] -- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf/local_setup.zsh
+[2.336s] -- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ament_index/resource_index/packages/ntf
+[2.336s] -- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf/cmake/ntfConfig.cmake
+[2.336s] -- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf/cmake/ntfConfig-version.cmake
+[2.336s] -- Up-to-date: /home/yx/code/ros2study/2/src/ntf/install/ntf/share/ntf/package.xml
+[2.339s] Invoked command in '/home/yx/code/ros2study/2/src/ntf/build/ntf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/ntf/build/ntf --target install -- -j12 -l12

@@ -1,0 +1,15 @@
+[0.015s] Invoking command in '/home/yx/code/ros2study/2/src/tf/build/tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/tf/build/tf -- -j12 -l12
+[0.051s] [35m[1mScanning dependencies of target tf_bro[0m
+[0.062s] [ 50%] Built target tf_lis
+[0.070s] [ 75%] [32mBuilding CXX object CMakeFiles/tf_bro.dir/src/tf_broadcast.cpp.o[0m
+[0.771s] [01m[K/home/yx/code/ros2study/2/src/tf/src/tf_broadcast.cpp:[m[K In function ‘[01m[Kvoid poseCallback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[0.771s] [01m[K/home/yx/code/ros2study/2/src/tf/src/tf_broadcast.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbr[m[K’ was not declared in this scope
+[0.771s]      [01;31m[Kbr[m[K.sendTransform(transform_stamped);
+[0.771s]      [01;31m[K^~[m[K
+[1.509s] CMakeFiles/tf_bro.dir/build.make:62: recipe for target 'CMakeFiles/tf_bro.dir/src/tf_broadcast.cpp.o' failed
+[1.509s] make[2]: *** [CMakeFiles/tf_bro.dir/src/tf_broadcast.cpp.o] Error 1
+[1.509s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/tf_bro.dir/all' failed
+[1.510s] make[1]: *** [CMakeFiles/tf_bro.dir/all] Error 2
+[1.510s] Makefile:140: recipe for target 'all' failed
+[1.510s] make: *** [all] Error 2
+[1.511s] Invoked command in '/home/yx/code/ros2study/2/src/tf/build/tf' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/tf/build/tf -- -j12 -l12

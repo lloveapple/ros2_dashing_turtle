@@ -1,0 +1,14 @@
+[0.111s] Invoking command in '/home/yx/code/ros2study/2/src/ntf/build/ntf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/ntf/build/ntf -- -j12 -l12
+[0.483s] [35m[1mScanning dependencies of target ntf[0m
+[0.502s] [ 50%] [32mBuilding CXX object CMakeFiles/ntf.dir/src/ntf.cpp.o[0m
+[1.189s] [01m[K/home/yx/code/ros2study/2/src/ntf/src/ntf.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.189s] [01m[K/home/yx/code/ros2study/2/src/ntf/src/ntf.cpp:59:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[1.189s]          [01;31m[K}[m[K
+[1.189s]          [01;31m[K^[m[K
+[1.855s] CMakeFiles/ntf.dir/build.make:62: recipe for target 'CMakeFiles/ntf.dir/src/ntf.cpp.o' failed
+[1.855s] make[2]: *** [CMakeFiles/ntf.dir/src/ntf.cpp.o] Error 1
+[1.855s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ntf.dir/all' failed
+[1.856s] Makefile:140: recipe for target 'all' failed
+[1.856s] make[1]: *** [CMakeFiles/ntf.dir/all] Error 2
+[1.856s] make: *** [all] Error 2
+[1.866s] Invoked command in '/home/yx/code/ros2study/2/src/ntf/build/ntf' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/ntf/build/ntf -- -j12 -l12

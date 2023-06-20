@@ -1,0 +1,84 @@
+[0.011s] Invoking command in '/home/yx/code/ros2study/2/src/tf/build/tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/yx/code/ros2study/2/src/tf -DCMAKE_INSTALL_PREFIX=/home/yx/code/ros2study/2/src/tf/install/tf
+[0.077s] -- The C compiler identification is GNU 7.5.0
+[0.123s] -- The CXX compiler identification is GNU 7.5.0
+[0.129s] -- Check for working C compiler: /usr/bin/cc
+[0.185s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.187s] -- Detecting C compiler ABI info
+[0.236s] -- Detecting C compiler ABI info - done
+[0.240s] -- Detecting C compile features
+[0.387s] -- Detecting C compile features - done
+[0.389s] -- Check for working CXX compiler: /usr/bin/c++
+[0.446s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.446s] -- Detecting CXX compiler ABI info
+[0.501s] -- Detecting CXX compiler ABI info - done
+[0.504s] -- Detecting CXX compile features
+[0.739s] -- Detecting CXX compile features - done
+[0.740s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.787s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.787s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.913s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.924s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.949s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.949s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.954s] -- Looking for pthread.h
+[1.004s] -- Looking for pthread.h - found
+[1.005s] -- Looking for pthread_create
+[1.057s] -- Looking for pthread_create - not found
+[1.057s] -- Looking for pthread_create in pthreads
+[1.101s] -- Looking for pthread_create in pthreads - not found
+[1.101s] -- Looking for pthread_create in pthread
+[1.150s] -- Looking for pthread_create in pthread - found
+[1.150s] -- Found Threads: TRUE  
+[1.172s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[1.175s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[1.214s] -- Found turtlesim: 1.0.3 (/opt/ros/dashing/share/turtlesim/cmake)
+[1.217s] -- Found tf2_geometry_msgs: 0.11.6 (/opt/ros/dashing/share/tf2_geometry_msgs/cmake)
+[1.220s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/dashing/share/eigen3_cmake_module/cmake)
+[1.222s] -- Found Eigen3: TRUE (found version "3.3.4") 
+[1.299s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.352s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[1.356s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.356s] -- Configured cppcheck include dirs: 
+[1.360s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.361s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.362s] -- Added test 'lint_cmake' to check CMake code style
+[1.363s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.366s] -- Added test 'uncrustify' to check C / C++ code style
+[1.367s] -- Added test 'xmllint' to check XML markup files
+[1.369s] -- Configuring done
+[1.391s] -- Generating done
+[1.392s] -- Build files have been written to: /home/yx/code/ros2study/2/src/tf/build/tf
+[1.397s] Invoked command in '/home/yx/code/ros2study/2/src/tf/build/tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake /home/yx/code/ros2study/2/src/tf -DCMAKE_INSTALL_PREFIX=/home/yx/code/ros2study/2/src/tf/install/tf
+[1.400s] Invoking command in '/home/yx/code/ros2study/2/src/tf/build/tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/tf/build/tf -- -j12 -l12
+[1.429s] [35m[1mScanning dependencies of target tf_lis[0m
+[1.429s] [35m[1mScanning dependencies of target tf_bro[0m
+[1.456s] [ 50%] [32mBuilding CXX object CMakeFiles/tf_lis.dir/src/tf_listener.cpp.o[0m
+[1.456s] [ 50%] [32mBuilding CXX object CMakeFiles/tf_bro.dir/src/tf_broadcast.cpp.o[0m
+[10.589s] [ 75%] [32m[1mLinking CXX executable tf_lis[0m
+[10.722s] [ 75%] Built target tf_lis
+[10.897s] [100%] [32m[1mLinking CXX executable tf_bro[0m
+[11.029s] [100%] Built target tf_bro
+[11.038s] Invoked command in '/home/yx/code/ros2study/2/src/tf/build/tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/tf/build/tf -- -j12 -l12
+[11.065s] Invoking command in '/home/yx/code/ros2study/2/src/tf/build/tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/tf/build/tf --target install -- -j12 -l12
+[11.103s] [100%] Built target tf_bro
+[11.103s] [100%] Built target tf_lis
+[11.115s] [36mInstall the project...[0m
+[11.121s] -- Install configuration: ""
+[11.122s] -- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf//launch
+[11.122s] -- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf//launch/tf.py
+[11.122s] -- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/lib/tf/tf_bro
+[11.122s] -- Set runtime path of "/home/yx/code/ros2study/2/src/tf/install/tf/lib/tf/tf_bro" to ""
+[11.123s] -- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/lib/tf/tf_lis
+[11.123s] -- Set runtime path of "/home/yx/code/ros2study/2/src/tf/install/tf/lib/tf/tf_lis" to ""
+[11.123s] -- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/ament_index/resource_index/package_run_dependencies/tf
+[11.124s] -- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/ament_index/resource_index/parent_prefix_path/tf
+[11.124s] -- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/environment/ament_prefix_path.sh
+[11.124s] -- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/environment/path.sh
+[11.124s] -- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/local_setup.bash
+[11.124s] -- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/local_setup.sh
+[11.124s] -- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/local_setup.zsh
+[11.124s] -- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/ament_index/resource_index/packages/tf
+[11.124s] -- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/cmake/tfConfig.cmake
+[11.124s] -- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/cmake/tfConfig-version.cmake
+[11.124s] -- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/package.xml
+[11.129s] Invoked command in '/home/yx/code/ros2study/2/src/tf/build/tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/tf/build/tf --target install -- -j12 -l12

@@ -1,0 +1,49 @@
+[0.012s] Invoking command in '/home/yx/code/ros2study/2/src/circle/build/circle': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/yx/code/ros2study/2/src/circle -DCMAKE_INSTALL_PREFIX=/home/yx/code/ros2study/2/src/circle/install/circle
+[0.024s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.042s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.162s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.169s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.188s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.189s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.204s] -- Found geometry_msgs: 0.7.1 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[0.211s] -- Found turtlesim: 1.0.3 (/opt/ros/dashing/share/turtlesim/cmake)
+[0.230s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[0.284s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[0.288s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.288s] -- Configured cppcheck include dirs: 
+[0.294s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.295s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.296s] -- Added test 'lint_cmake' to check CMake code style
+[0.297s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.301s] -- Added test 'uncrustify' to check C / C++ code style
+[0.302s] -- Added test 'xmllint' to check XML markup files
+[0.303s] -- Configuring done
+[0.348s] -- Generating done
+[0.349s] -- Build files have been written to: /home/yx/code/ros2study/2/src/circle/build/circle
+[0.352s] Invoked command in '/home/yx/code/ros2study/2/src/circle/build/circle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/yx/code/ros2study/2/src/circle -DCMAKE_INSTALL_PREFIX=/home/yx/code/ros2study/2/src/circle/install/circle
+[0.354s] Invoking command in '/home/yx/code/ros2study/2/src/circle/build/circle': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/circle/build/circle -- -j12 -l12
+[0.385s] [35m[1mScanning dependencies of target circle[0m
+[0.405s] [ 50%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle.cpp.o[0m
+[2.503s] [100%] [32m[1mLinking CXX executable circle[0m
+[2.623s] [100%] Built target circle
+[2.631s] Invoked command in '/home/yx/code/ros2study/2/src/circle/build/circle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/circle/build/circle -- -j12 -l12
+[2.657s] Invoking command in '/home/yx/code/ros2study/2/src/circle/build/circle': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/circle/build/circle --target install -- -j12 -l12
+[2.696s] [100%] Built target circle
+[2.709s] [36mInstall the project...[0m
+[2.716s] -- Install configuration: ""
+[2.717s] -- Installing: /home/yx/code/ros2study/2/src/circle/install/circle/share///launch
+[2.717s] -- Installing: /home/yx/code/ros2study/2/src/circle/install/circle/share///launch/circle.py
+[2.717s] -- Installing: /home/yx/code/ros2study/2/src/circle/install/circle/lib/circle/circle
+[2.717s] -- Set runtime path of "/home/yx/code/ros2study/2/src/circle/install/circle/lib/circle/circle" to ""
+[2.717s] -- Installing: /home/yx/code/ros2study/2/src/circle/install/circle/share/ament_index/resource_index/package_run_dependencies/circle
+[2.717s] -- Installing: /home/yx/code/ros2study/2/src/circle/install/circle/share/ament_index/resource_index/parent_prefix_path/circle
+[2.718s] -- Installing: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle/environment/ament_prefix_path.sh
+[2.718s] -- Installing: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle/environment/path.sh
+[2.718s] -- Installing: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle/local_setup.bash
+[2.718s] -- Installing: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle/local_setup.sh
+[2.718s] -- Installing: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle/local_setup.zsh
+[2.718s] -- Installing: /home/yx/code/ros2study/2/src/circle/install/circle/share/ament_index/resource_index/packages/circle
+[2.718s] -- Installing: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle/cmake/circleConfig.cmake
+[2.719s] -- Installing: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle/cmake/circleConfig-version.cmake
+[2.719s] -- Installing: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle/package.xml
+[2.722s] Invoked command in '/home/yx/code/ros2study/2/src/circle/build/circle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/circle/build/circle --target install -- -j12 -l12

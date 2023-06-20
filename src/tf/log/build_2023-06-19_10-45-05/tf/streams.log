@@ -1,0 +1,18 @@
+[0.013s] Invoking command in '/home/yx/code/ros2study/2/src/tf/build/tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/tf/build/tf -- -j12 -l12
+[0.045s] [35m[1mScanning dependencies of target tf_bro[0m
+[0.055s] [ 50%] Built target tf_lis
+[0.060s] [ 75%] [32mBuilding CXX object CMakeFiles/tf_bro.dir/src/tf_broadcast.cpp.o[0m
+[0.887s] [01m[K/home/yx/code/ros2study/2/src/tf/src/tf_broadcast.cpp:9:62:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K,[m[K’ token
+[0.887s]  void poseCallback(const turtlesim::msg::Pose::SharedPtr msg, [01;31m[K,[m[K tf2_ros::TransformBroadcaster& br)
+[0.887s]                                                               [01;31m[K^[m[K
+[0.918s] [01m[K/home/yx/code/ros2study/2/src/tf/src/tf_broadcast.cpp:[m[K In lambda function:
+[0.918s] [01m[K/home/yx/code/ros2study/2/src/tf/src/tf_broadcast.cpp:43:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2_ros::TransformBroadcaster[m[K’ to ‘[01m[Kint[m[K’ for argument ‘[01m[K2[m[K’ to ‘[01m[Kvoid poseCallback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr, int, tf2_ros::TransformBroadcaster&)[m[K’
+[0.918s]          poseCallback(msg, br[01;31m[K)[m[K;
+[0.918s]                              [01;31m[K^[m[K
+[1.550s] CMakeFiles/tf_bro.dir/build.make:62: recipe for target 'CMakeFiles/tf_bro.dir/src/tf_broadcast.cpp.o' failed
+[1.550s] make[2]: *** [CMakeFiles/tf_bro.dir/src/tf_broadcast.cpp.o] Error 1
+[1.550s] make[1]: *** [CMakeFiles/tf_bro.dir/all] Error 2
+[1.551s] make: *** [all] Error 2
+[1.551s] CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/tf_bro.dir/all' failed
+[1.551s] Makefile:140: recipe for target 'all' failed
+[1.552s] Invoked command in '/home/yx/code/ros2study/2/src/tf/build/tf' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/tf/build/tf -- -j12 -l12

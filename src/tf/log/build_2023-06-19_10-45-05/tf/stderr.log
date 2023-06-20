@@ -1,0 +1,10 @@
+[01m[K/home/yx/code/ros2study/2/src/tf/src/tf_broadcast.cpp:9:62:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[K,[m[K’ token
+ void poseCallback(const turtlesim::msg::Pose::SharedPtr msg, [01;31m[K,[m[K tf2_ros::TransformBroadcaster& br)
+                                                              [01;31m[K^[m[K
+[01m[K/home/yx/code/ros2study/2/src/tf/src/tf_broadcast.cpp:[m[K In lambda function:
+[01m[K/home/yx/code/ros2study/2/src/tf/src/tf_broadcast.cpp:43:29:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2_ros::TransformBroadcaster[m[K’ to ‘[01m[Kint[m[K’ for argument ‘[01m[K2[m[K’ to ‘[01m[Kvoid poseCallback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr, int, tf2_ros::TransformBroadcaster&)[m[K’
+         poseCallback(msg, br[01;31m[K)[m[K;
+                             [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/tf_bro.dir/src/tf_broadcast.cpp.o] Error 1
+make[1]: *** [CMakeFiles/tf_bro.dir/all] Error 2
+make: *** [all] Error 2

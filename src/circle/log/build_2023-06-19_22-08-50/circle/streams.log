@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/yx/code/ros2study/2/src/circle/build/circle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/circle/build/circle -- -j12 -l12
+[0.059s] [35m[1mScanning dependencies of target circle[0m
+[0.077s] [ 50%] [32mBuilding CXX object CMakeFiles/circle.dir/src/circle.cpp.o[0m
+[2.297s] [100%] [32m[1mLinking CXX executable circle[0m
+[2.420s] [100%] Built target circle
+[2.428s] Invoked command in '/home/yx/code/ros2study/2/src/circle/build/circle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/circle/build/circle -- -j12 -l12
+[2.454s] Invoking command in '/home/yx/code/ros2study/2/src/circle/build/circle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/circle/build/circle --target install -- -j12 -l12
+[2.492s] [100%] Built target circle
+[2.505s] [36mInstall the project...[0m
+[2.510s] -- Install configuration: ""
+[2.511s] -- Up-to-date: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle//launch
+[2.511s] -- Up-to-date: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle//launch/circle.py
+[2.511s] -- Installing: /home/yx/code/ros2study/2/src/circle/install/circle/lib/circle/circle
+[2.512s] -- Set runtime path of "/home/yx/code/ros2study/2/src/circle/install/circle/lib/circle/circle" to ""
+[2.512s] -- Up-to-date: /home/yx/code/ros2study/2/src/circle/install/circle/share/ament_index/resource_index/package_run_dependencies/circle
+[2.512s] -- Up-to-date: /home/yx/code/ros2study/2/src/circle/install/circle/share/ament_index/resource_index/parent_prefix_path/circle
+[2.513s] -- Up-to-date: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle/environment/ament_prefix_path.sh
+[2.513s] -- Up-to-date: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle/environment/path.sh
+[2.513s] -- Up-to-date: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle/local_setup.bash
+[2.513s] -- Up-to-date: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle/local_setup.sh
+[2.513s] -- Up-to-date: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle/local_setup.zsh
+[2.513s] -- Up-to-date: /home/yx/code/ros2study/2/src/circle/install/circle/share/ament_index/resource_index/packages/circle
+[2.514s] -- Up-to-date: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle/cmake/circleConfig.cmake
+[2.514s] -- Up-to-date: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle/cmake/circleConfig-version.cmake
+[2.514s] -- Up-to-date: /home/yx/code/ros2study/2/src/circle/install/circle/share/circle/package.xml
+[2.515s] Invoked command in '/home/yx/code/ros2study/2/src/circle/build/circle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/circle/build/circle --target install -- -j12 -l12

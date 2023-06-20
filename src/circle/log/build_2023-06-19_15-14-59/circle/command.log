@@ -1,0 +1,6 @@
+Invoking command in '/home/yx/code/ros2study/2/src/circle/build/circle': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/yx/code/ros2study/2/src/circle -DCMAKE_INSTALL_PREFIX=/home/yx/code/ros2study/2/src/circle/install/circle
+Invoked command in '/home/yx/code/ros2study/2/src/circle/build/circle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/yx/code/ros2study/2/src/circle -DCMAKE_INSTALL_PREFIX=/home/yx/code/ros2study/2/src/circle/install/circle
+Invoking command in '/home/yx/code/ros2study/2/src/circle/build/circle': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/circle/build/circle -- -j12 -l12
+Invoked command in '/home/yx/code/ros2study/2/src/circle/build/circle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/circle/build/circle -- -j12 -l12
+Invoking command in '/home/yx/code/ros2study/2/src/circle/build/circle': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/circle/build/circle --target install -- -j12 -l12
+Invoked command in '/home/yx/code/ros2study/2/src/circle/build/circle' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/circle/build/circle --target install -- -j12 -l12

@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target ntf[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ntf.dir/src/ntf.cpp.o[0m
+CMakeFiles/ntf.dir/build.make:62: recipe for target 'CMakeFiles/ntf.dir/src/ntf.cpp.o' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/ntf.dir/all' failed
+Makefile:140: recipe for target 'all' failed
