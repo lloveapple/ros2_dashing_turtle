@@ -1,0 +1,7 @@
+[01m[K/home/yx/code/ros2study/2/src/tf/src/tf_broadcast.cpp:[m[K In function ‘[01m[Kvoid poseCallback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/yx/code/ros2study/2/src/tf/src/tf_broadcast.cpp:26:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kbr[m[K’ was not declared in this scope
+     [01;31m[Kbr[m[K.sendTransform(transform_stamped);
+     [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/tf_bro.dir/src/tf_broadcast.cpp.o] Error 1
+make[1]: *** [CMakeFiles/tf_bro.dir/all] Error 2
+make: *** [all] Error 2

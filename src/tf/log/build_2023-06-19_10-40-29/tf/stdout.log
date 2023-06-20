@@ -1,0 +1,6 @@
+[35m[1mScanning dependencies of target tf_bro[0m
+[ 50%] Built target tf_lis
+[ 75%] [32mBuilding CXX object CMakeFiles/tf_bro.dir/src/tf_broadcast.cpp.o[0m
+CMakeFiles/tf_bro.dir/build.make:62: recipe for target 'CMakeFiles/tf_bro.dir/src/tf_broadcast.cpp.o' failed
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/tf_bro.dir/all' failed
+Makefile:140: recipe for target 'all' failed

@@ -1,0 +1,23 @@
+[0.009s] Invoking command in '/home/yx/code/ros2study/2/src/circle/build/circle': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/yx/code/ros2study/2/src/circle -DCMAKE_INSTALL_PREFIX=/home/yx/code/ros2study/2/src/circle/install/circle
+[0.022s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.039s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.157s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.165s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.184s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.184s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.199s] -- Found geometry_msgs: 0.7.1 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[0.205s] -- Found turtlesim: 1.0.3 (/opt/ros/dashing/share/turtlesim/cmake)
+[0.224s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[0.265s] CMake Error at /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.265s]   ament_package_xml() package name 'circle' in '/package.xml' does not match
+[0.265s]   current PROJECT_NAME 'tf'.  You must call project() with the same package
+[0.265s]   name before.
+[0.265s] Call Stack (most recent call first):
+[0.265s]   /opt/ros/dashing/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.265s]   CMakeLists.txt:58 (ament_lint_auto_find_test_dependencies)
+[0.265s] 
+[0.265s] 
+[0.265s] -- Configuring incomplete, errors occurred!
+[0.265s] See also "/home/yx/code/ros2study/2/src/circle/build/circle/CMakeFiles/CMakeOutput.log".
+[0.265s] See also "/home/yx/code/ros2study/2/src/circle/build/circle/CMakeFiles/CMakeError.log".
+[0.269s] Invoked command in '/home/yx/code/ros2study/2/src/circle/build/circle' returned '1': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/yx/code/ros2study/2/src/circle -DCMAKE_INSTALL_PREFIX=/home/yx/code/ros2study/2/src/circle/install/circle

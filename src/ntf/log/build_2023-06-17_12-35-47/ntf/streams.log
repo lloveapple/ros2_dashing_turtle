@@ -1,0 +1,21 @@
+[0.018s] Invoking command in '/home/yx/code/ros2study/2/src/ntf/build/ntf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/ntf/build/ntf -- -j12 -l12
+[0.041s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.058s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.182s] -- Found geometry_msgs: 0.7.1 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[0.187s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.208s] -- Found turtlesim: 1.0.3 (/opt/ros/dashing/share/turtlesim/cmake)
+[0.217s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.222s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[0.223s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.238s] CMake Error at /opt/ros/dashing/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:36 (message):
+[0.238s]   ament_target_dependencies() the first argument must be a valid target name
+[0.238s] Call Stack (most recent call first):
+[0.238s]   CMakeLists.txt:37 (ament_target_dependencies)
+[0.238s] 
+[0.238s] 
+[0.238s] -- Configuring incomplete, errors occurred!
+[0.238s] See also "/home/yx/code/ros2study/2/src/ntf/build/ntf/CMakeFiles/CMakeOutput.log".
+[0.239s] See also "/home/yx/code/ros2study/2/src/ntf/build/ntf/CMakeFiles/CMakeError.log".
+[0.240s] Makefile:252: recipe for target 'cmake_check_build_system' failed
+[0.241s] make: *** [cmake_check_build_system] Error 1
+[0.242s] Invoked command in '/home/yx/code/ros2study/2/src/ntf/build/ntf' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/ntf/build/ntf -- -j12 -l12

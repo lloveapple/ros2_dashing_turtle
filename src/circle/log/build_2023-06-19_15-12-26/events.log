@@ -1,0 +1,76 @@
+[0.000000] (-) TimerEvent: {}
+[0.000819] (circle) JobQueued: {'identifier': 'circle', 'dependencies': OrderedDict()}
+[0.000877] (circle) JobStarted: {'identifier': 'circle'}
+[0.009002] (circle) JobProgress: {'identifier': 'circle', 'progress': 'cmake'}
+[0.009366] (circle) Command: {'cmd': ['/usr/bin/cmake', '/home/yx/code/ros2study/2/src/circle', '-DCMAKE_INSTALL_PREFIX=/home/yx/code/ros2study/2/src/circle/install/circle'], 'cwd': '/home/yx/code/ros2study/2/src/circle/build/circle', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://172.16.124.220:4780/'), ('USER', 'yx'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1493'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/yx'), ('OLDPWD', '/home/yx/code/ros2study/2/src'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '1303'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7bdc6aee6b28350eff856c52648aca1b'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://172.16.124.220:4780/'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'yx'), ('GTK_IM_MODULE', 'fcitx'), ('JOURNAL_STREAM', '9:36485'), ('http_proxy', 'http://172.16.124.220:4780/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'yx'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '20f75d64df8e40e0b6bb793e91b7f707'), ('SESSION_MANAGER', 'local/yx-virtual-machine:@/tmp/.ICE-unix/1403,unix/yx-virtual-machine:/tmp/.ICE-unix/1403'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2bc00ce7_8c73_4d9d_b70c_da7c8eebc4db'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('ZEITGEIST_DATA_PATH', '/home/yx/.local/share/zeitgeist'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yx/code/ros2study/2/src/circle/build/circle'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7bdc6aee6b28350eff856c52648aca1b'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('HTTP_PROXY', 'http://172.16.124.220:4780/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.067877] (circle) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.099742] (-) TimerEvent: {}
+[0.103701] (circle) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.106963] (circle) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.158187] (circle) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.158612] (circle) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199986] (-) TimerEvent: {}
+[0.211317] (circle) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.214309] (circle) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.300452] (-) TimerEvent: {}
+[0.360941] (circle) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.362317] (circle) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.401452] (-) TimerEvent: {}
+[0.417295] (circle) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.417630] (circle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.475172] (circle) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.477884] (circle) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.501753] (-) TimerEvent: {}
+[0.603058] (-) TimerEvent: {}
+[0.703907] (-) TimerEvent: {}
+[0.708573] (circle) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.709825] (circle) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.726964] (circle) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.727139] (circle) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.804262] (-) TimerEvent: {}
+[0.870327] (circle) StdoutLine: {'line': b'-- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[0.904513] (-) TimerEvent: {}
+[0.925680] (circle) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[1.004412] (circle) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[1.004622] (-) TimerEvent: {}
+[1.011496] (circle) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.012086] (circle) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.064881] (circle) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.065204] (circle) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[1.110058] (-) TimerEvent: {}
+[1.115720] (circle) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[1.115986] (circle) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.158717] (circle) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.158961] (circle) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.208961] (circle) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.209605] (circle) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.210583] (-) TimerEvent: {}
+[1.261991] (circle) StdoutLine: {'line': b'-- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)\n'}
+[1.264720] (circle) StdoutLine: {'line': b'-- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)\n'}
+[1.311353] (-) TimerEvent: {}
+[1.340170] (circle) StdoutLine: {'line': b'-- Found turtlesim: 1.0.3 (/opt/ros/dashing/share/turtlesim/cmake)\n'}
+[1.348965] (circle) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.11.6 (/opt/ros/dashing/share/tf2_geometry_msgs/cmake)\n'}
+[1.351596] (circle) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/dashing/share/eigen3_cmake_module/cmake)\n'}
+[1.353858] (circle) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.4") \n'}
+[1.386707] (circle) StderrLine: {'line': b'CMake Error at CMakeLists.txt:49 (install):\n'}
+[1.386926] (circle) StderrLine: {'line': b'  install TARGETS given target "tf_bro" which does not exist in this\n'}
+[1.387005] (circle) StderrLine: {'line': b'  directory.\n'}
+[1.387069] (circle) StderrLine: {'line': b'\n'}
+[1.387131] (circle) StderrLine: {'line': b'\n'}
+[1.387307] (circle) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[1.411595] (-) TimerEvent: {}
+[1.423886] (circle) StderrLine: {'line': b'CMake Error at /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):\n'}
+[1.424054] (circle) StderrLine: {'line': b"  ament_package_xml() package name 'circle' in '/package.xml' does not match\n"}
+[1.424117] (circle) StderrLine: {'line': b"  current PROJECT_NAME 'tf'.  You must call project() with the same package\n"}
+[1.424166] (circle) StderrLine: {'line': b'  name before.\n'}
+[1.424214] (circle) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.424258] (circle) StderrLine: {'line': b'  /opt/ros/dashing/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[1.424305] (circle) StderrLine: {'line': b'  CMakeLists.txt:64 (ament_lint_auto_find_test_dependencies)\n'}
+[1.424347] (circle) StderrLine: {'line': b'\n'}
+[1.424389] (circle) StderrLine: {'line': b'\n'}
+[1.424753] (circle) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.424845] (circle) StdoutLine: {'line': b'See also "/home/yx/code/ros2study/2/src/circle/build/circle/CMakeFiles/CMakeOutput.log".\n'}
+[1.424899] (circle) StdoutLine: {'line': b'See also "/home/yx/code/ros2study/2/src/circle/build/circle/CMakeFiles/CMakeError.log".\n'}
+[1.428229] (circle) CommandEnded: {'returncode': 1}
+[1.448465] (circle) JobEnded: {'identifier': 'circle', 'rc': 1}
+[1.460118] (-) EventReactorShutdown: {}

@@ -1,0 +1,29 @@
+[0.014s] Invoking command in '/home/yx/code/ros2study/2/src/tf/build/tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/tf/build/tf -- -j12 -l12
+[0.048s] [35m[1mScanning dependencies of target tf_bro[0m
+[0.059s] [ 50%] Built target tf_lis
+[0.063s] [ 75%] [32mBuilding CXX object CMakeFiles/tf_bro.dir/src/tf_broadcast.cpp.o[0m
+[4.180s] [100%] [32m[1mLinking CXX executable tf_bro[0m
+[4.398s] [100%] Built target tf_bro
+[4.408s] Invoked command in '/home/yx/code/ros2study/2/src/tf/build/tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/tf/build/tf -- -j12 -l12
+[4.457s] Invoking command in '/home/yx/code/ros2study/2/src/tf/build/tf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/tf/build/tf --target install -- -j12 -l12
+[4.519s] [ 50%] Built target tf_bro
+[4.522s] [100%] Built target tf_lis
+[4.544s] [36mInstall the project...[0m
+[4.553s] -- Install configuration: ""
+[4.554s] -- Up-to-date: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf//launch
+[4.554s] -- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf//launch/tf.py
+[4.554s] -- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/lib/tf/tf_bro
+[4.554s] -- Set runtime path of "/home/yx/code/ros2study/2/src/tf/install/tf/lib/tf/tf_bro" to ""
+[4.555s] -- Up-to-date: /home/yx/code/ros2study/2/src/tf/install/tf/lib/tf/tf_lis
+[4.555s] -- Up-to-date: /home/yx/code/ros2study/2/src/tf/install/tf/share/ament_index/resource_index/package_run_dependencies/tf
+[4.555s] -- Up-to-date: /home/yx/code/ros2study/2/src/tf/install/tf/share/ament_index/resource_index/parent_prefix_path/tf
+[4.555s] -- Up-to-date: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/environment/ament_prefix_path.sh
+[4.555s] -- Up-to-date: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/environment/path.sh
+[4.555s] -- Up-to-date: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/local_setup.bash
+[4.555s] -- Up-to-date: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/local_setup.sh
+[4.556s] -- Up-to-date: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/local_setup.zsh
+[4.556s] -- Up-to-date: /home/yx/code/ros2study/2/src/tf/install/tf/share/ament_index/resource_index/packages/tf
+[4.556s] -- Up-to-date: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/cmake/tfConfig.cmake
+[4.556s] -- Up-to-date: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/cmake/tfConfig-version.cmake
+[4.556s] -- Up-to-date: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/package.xml
+[4.559s] Invoked command in '/home/yx/code/ros2study/2/src/tf/build/tf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/dashing /usr/bin/cmake --build /home/yx/code/ros2study/2/src/tf/build/tf --target install -- -j12 -l12

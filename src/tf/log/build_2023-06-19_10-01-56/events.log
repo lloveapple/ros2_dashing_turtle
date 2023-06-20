@@ -1,0 +1,202 @@
+[0.000000] (-) TimerEvent: {}
+[0.000174] (tf) JobQueued: {'identifier': 'tf', 'dependencies': OrderedDict()}
+[0.000218] (tf) JobStarted: {'identifier': 'tf'}
+[0.009601] (tf) JobProgress: {'identifier': 'tf', 'progress': 'cmake'}
+[0.010037] (tf) Command: {'cmd': ['/usr/bin/cmake', '/home/yx/code/ros2study/2/src/tf', '-DCMAKE_INSTALL_PREFIX=/home/yx/code/ros2study/2/src/tf/install/tf'], 'cwd': '/home/yx/code/ros2study/2/src/tf/build/tf', 'env': OrderedDict([('TERM_SESSION_ID', 'fcb20066-a2d0-4119-8647-5dae07be7f1d'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://172.16.124.220:4780/'), ('USER', 'yx'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1493'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/yx/code/ros2study/2/src'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/yx'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://172.16.124.220:4780/'), ('COLCON_PREFIX_PATH', '/home/yx/code/ros2study/2/src/ntf/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'yx'), ('GTK_IM_MODULE', 'fcitx'), ('http_proxy', 'http://172.16.124.220:4780/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'yx'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/yx-virtual-machine:@/tmp/.ICE-unix/1403,unix/yx-virtual-machine:/tmp/.ICE-unix/1403'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ba23851f_871d_4504_bafe_8c689a27d161'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/yx/code/ros2study/2/src/ntf/install/ntf:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yx/code/ros2study/2/src/tf/build/tf'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('HTTP_PROXY', 'http://172.16.124.220:4780/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/yx/code/ros2study/2/src/ntf/install/ntf:/opt/ros/dashing')]), 'shell': False}
+[0.076880] (tf) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.099279] (-) TimerEvent: {}
+[0.122865] (tf) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.128943] (tf) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.185526] (tf) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.187002] (tf) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199625] (-) TimerEvent: {}
+[0.236174] (tf) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.240326] (tf) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.300548] (-) TimerEvent: {}
+[0.386800] (tf) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.389414] (tf) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.400837] (-) TimerEvent: {}
+[0.446004] (tf) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.446369] (tf) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501083] (-) TimerEvent: {}
+[0.501573] (tf) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.504409] (tf) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.601761] (-) TimerEvent: {}
+[0.702617] (-) TimerEvent: {}
+[0.739052] (tf) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.740407] (tf) StdoutLine: {'line': b'-- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)\n'}
+[0.786765] (tf) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[0.787010] (tf) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.803569] (-) TimerEvent: {}
+[0.904287] (-) TimerEvent: {}
+[0.912726] (tf) StdoutLine: {'line': b'-- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)\n'}
+[0.924033] (tf) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)\n'}
+[0.948647] (tf) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)\n'}
+[0.949406] (tf) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.954437] (tf) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.004127] (tf) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.004333] (-) TimerEvent: {}
+[1.005253] (tf) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[1.056755] (tf) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[1.057076] (tf) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.100950] (tf) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.101266] (tf) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.105132] (-) TimerEvent: {}
+[1.149927] (tf) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.150581] (tf) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.171982] (tf) StdoutLine: {'line': b'-- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)\n'}
+[1.174908] (tf) StdoutLine: {'line': b'-- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)\n'}
+[1.205434] (-) TimerEvent: {}
+[1.213748] (tf) StdoutLine: {'line': b'-- Found turtlesim: 1.0.3 (/opt/ros/dashing/share/turtlesim/cmake)\n'}
+[1.217348] (tf) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.11.6 (/opt/ros/dashing/share/tf2_geometry_msgs/cmake)\n'}
+[1.219994] (tf) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/dashing/share/eigen3_cmake_module/cmake)\n'}
+[1.221928] (tf) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.4") \n'}
+[1.298865] (tf) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)\n'}
+[1.305911] (-) TimerEvent: {}
+[1.352209] (tf) StdoutLine: {'line': b"-- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code\n"}
+[1.356170] (tf) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.356458] (tf) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.360064] (tf) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.360853] (tf) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.362020] (tf) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.362775] (tf) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.366576] (tf) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.367310] (tf) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.368927] (tf) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.391168] (tf) StdoutLine: {'line': b'-- Generating done\n'}
+[1.392533] (tf) StdoutLine: {'line': b'-- Build files have been written to: /home/yx/code/ros2study/2/src/tf/build/tf\n'}
+[1.397196] (tf) CommandEnded: {'returncode': 0}
+[1.397891] (tf) JobProgress: {'identifier': 'tf', 'progress': 'build'}
+[1.399783] (tf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yx/code/ros2study/2/src/tf/build/tf', '--', '-j12', '-l12'], 'cwd': '/home/yx/code/ros2study/2/src/tf/build/tf', 'env': OrderedDict([('TERM_SESSION_ID', 'fcb20066-a2d0-4119-8647-5dae07be7f1d'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://172.16.124.220:4780/'), ('USER', 'yx'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1493'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/yx/code/ros2study/2/src'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/yx'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://172.16.124.220:4780/'), ('COLCON_PREFIX_PATH', '/home/yx/code/ros2study/2/src/ntf/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'yx'), ('GTK_IM_MODULE', 'fcitx'), ('http_proxy', 'http://172.16.124.220:4780/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'yx'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/yx-virtual-machine:@/tmp/.ICE-unix/1403,unix/yx-virtual-machine:/tmp/.ICE-unix/1403'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ba23851f_871d_4504_bafe_8c689a27d161'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/yx/code/ros2study/2/src/ntf/install/ntf:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yx/code/ros2study/2/src/tf/build/tf'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('HTTP_PROXY', 'http://172.16.124.220:4780/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/yx/code/ros2study/2/src/ntf/install/ntf:/opt/ros/dashing')]), 'shell': False}
+[1.406067] (-) TimerEvent: {}
+[1.429080] (tf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tf_lis\x1b[0m\n'}
+[1.429313] (tf) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target tf_bro\x1b[0m\n'}
+[1.456405] (tf) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tf_lis.dir/src/tf_listener.cpp.o\x1b[0m\n'}
+[1.456649] (tf) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tf_bro.dir/src/tf_broadcast.cpp.o\x1b[0m\n'}
+[1.506438] (-) TimerEvent: {}
+[1.607338] (-) TimerEvent: {}
+[1.708081] (-) TimerEvent: {}
+[1.808535] (-) TimerEvent: {}
+[1.909807] (-) TimerEvent: {}
+[2.010573] (-) TimerEvent: {}
+[2.111264] (-) TimerEvent: {}
+[2.211673] (-) TimerEvent: {}
+[2.312215] (-) TimerEvent: {}
+[2.413445] (-) TimerEvent: {}
+[2.514130] (-) TimerEvent: {}
+[2.614800] (-) TimerEvent: {}
+[2.715419] (-) TimerEvent: {}
+[2.815808] (-) TimerEvent: {}
+[2.916438] (-) TimerEvent: {}
+[3.017676] (-) TimerEvent: {}
+[3.118348] (-) TimerEvent: {}
+[3.218867] (-) TimerEvent: {}
+[3.319735] (-) TimerEvent: {}
+[3.420436] (-) TimerEvent: {}
+[3.521080] (-) TimerEvent: {}
+[3.621720] (-) TimerEvent: {}
+[3.722381] (-) TimerEvent: {}
+[3.822955] (-) TimerEvent: {}
+[3.923623] (-) TimerEvent: {}
+[4.024275] (-) TimerEvent: {}
+[4.124795] (-) TimerEvent: {}
+[4.225135] (-) TimerEvent: {}
+[4.326231] (-) TimerEvent: {}
+[4.427380] (-) TimerEvent: {}
+[4.527835] (-) TimerEvent: {}
+[4.628238] (-) TimerEvent: {}
+[4.729427] (-) TimerEvent: {}
+[4.830516] (-) TimerEvent: {}
+[4.931150] (-) TimerEvent: {}
+[5.031587] (-) TimerEvent: {}
+[5.132215] (-) TimerEvent: {}
+[5.233120] (-) TimerEvent: {}
+[5.334030] (-) TimerEvent: {}
+[5.434664] (-) TimerEvent: {}
+[5.535736] (-) TimerEvent: {}
+[5.642914] (-) TimerEvent: {}
+[5.744083] (-) TimerEvent: {}
+[5.844823] (-) TimerEvent: {}
+[5.945506] (-) TimerEvent: {}
+[6.046664] (-) TimerEvent: {}
+[6.147319] (-) TimerEvent: {}
+[6.248086] (-) TimerEvent: {}
+[6.349387] (-) TimerEvent: {}
+[6.450544] (-) TimerEvent: {}
+[6.551251] (-) TimerEvent: {}
+[6.651860] (-) TimerEvent: {}
+[6.753078] (-) TimerEvent: {}
+[6.853767] (-) TimerEvent: {}
+[6.954488] (-) TimerEvent: {}
+[7.055173] (-) TimerEvent: {}
+[7.155633] (-) TimerEvent: {}
+[7.256326] (-) TimerEvent: {}
+[7.357059] (-) TimerEvent: {}
+[7.458331] (-) TimerEvent: {}
+[7.558995] (-) TimerEvent: {}
+[7.660112] (-) TimerEvent: {}
+[7.760553] (-) TimerEvent: {}
+[7.861787] (-) TimerEvent: {}
+[7.962240] (-) TimerEvent: {}
+[8.062882] (-) TimerEvent: {}
+[8.164019] (-) TimerEvent: {}
+[8.265245] (-) TimerEvent: {}
+[8.366491] (-) TimerEvent: {}
+[8.467669] (-) TimerEvent: {}
+[8.568372] (-) TimerEvent: {}
+[8.669524] (-) TimerEvent: {}
+[8.770826] (-) TimerEvent: {}
+[8.872117] (-) TimerEvent: {}
+[8.972974] (-) TimerEvent: {}
+[9.073615] (-) TimerEvent: {}
+[9.174306] (-) TimerEvent: {}
+[9.274978] (-) TimerEvent: {}
+[9.375474] (-) TimerEvent: {}
+[9.476092] (-) TimerEvent: {}
+[9.577239] (-) TimerEvent: {}
+[9.678431] (-) TimerEvent: {}
+[9.779572] (-) TimerEvent: {}
+[9.880249] (-) TimerEvent: {}
+[9.980979] (-) TimerEvent: {}
+[10.082164] (-) TimerEvent: {}
+[10.183395] (-) TimerEvent: {}
+[10.284184] (-) TimerEvent: {}
+[10.385344] (-) TimerEvent: {}
+[10.486002] (-) TimerEvent: {}
+[10.586840] (-) TimerEvent: {}
+[10.588864] (tf) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable tf_lis\x1b[0m\n'}
+[10.687167] (-) TimerEvent: {}
+[10.722471] (tf) StdoutLine: {'line': b'[ 75%] Built target tf_lis\n'}
+[10.788018] (-) TimerEvent: {}
+[10.889356] (-) TimerEvent: {}
+[10.897167] (tf) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tf_bro\x1b[0m\n'}
+[10.990139] (-) TimerEvent: {}
+[11.028607] (tf) StdoutLine: {'line': b'[100%] Built target tf_bro\n'}
+[11.037922] (tf) CommandEnded: {'returncode': 0}
+[11.055368] (tf) JobProgress: {'identifier': 'tf', 'progress': 'install'}
+[11.064516] (tf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yx/code/ros2study/2/src/tf/build/tf', '--target', 'install', '--', '-j12', '-l12'], 'cwd': '/home/yx/code/ros2study/2/src/tf/build/tf', 'env': OrderedDict([('TERM_SESSION_ID', 'fcb20066-a2d0-4119-8647-5dae07be7f1d'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HTTPS_PROXY', 'http://172.16.124.220:4780/'), ('USER', 'yx'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1493'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '2'), ('OLDPWD', '/home/yx/code/ros2study/2/src'), ('QT4_IM_MODULE', 'fcitx'), ('HOME', '/home/yx'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('TERMINAL_EMULATOR', 'JetBrains-JediTerm'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('https_proxy', 'http://172.16.124.220:4780/'), ('COLCON_PREFIX_PATH', '/home/yx/code/ros2study/2/src/ntf/install'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'dashing'), ('LOGNAME', 'yx'), ('GTK_IM_MODULE', 'fcitx'), ('http_proxy', 'http://172.16.124.220:4780/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('USERNAME', 'yx'), ('XDG_SESSION_ID', '1'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '1'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/yx-virtual-machine:@/tmp/.ICE-unix/1403,unix/yx-virtual-machine:/tmp/.ICE-unix/1403'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/ba23851f_871d_4504_bafe_8c689a27d161'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=fcitx'), ('GNOME_TERMINAL_SERVICE', ':1.157'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/yx/code/ros2study/2/src/ntf/install/ntf:/opt/ros/dashing'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '1'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yx/code/ros2study/2/src/tf/build/tf'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('HTTP_PROXY', 'http://172.16.124.220:4780/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/yx/code/ros2study/2/src/ntf/install/ntf:/opt/ros/dashing')]), 'shell': False}
+[11.090835] (-) TimerEvent: {}
+[11.103105] (tf) StdoutLine: {'line': b'[100%] Built target tf_bro\n'}
+[11.103332] (tf) StdoutLine: {'line': b'[100%] Built target tf_lis\n'}
+[11.115536] (tf) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[11.121509] (tf) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.121853] (tf) StdoutLine: {'line': b'-- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf//launch\n'}
+[11.121970] (tf) StdoutLine: {'line': b'-- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf//launch/tf.py\n'}
+[11.122040] (tf) StdoutLine: {'line': b'-- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/lib/tf/tf_bro\n'}
+[11.122593] (tf) StdoutLine: {'line': b'-- Set runtime path of "/home/yx/code/ros2study/2/src/tf/install/tf/lib/tf/tf_bro" to ""\n'}
+[11.122831] (tf) StdoutLine: {'line': b'-- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/lib/tf/tf_lis\n'}
+[11.123358] (tf) StdoutLine: {'line': b'-- Set runtime path of "/home/yx/code/ros2study/2/src/tf/install/tf/lib/tf/tf_lis" to ""\n'}
+[11.123577] (tf) StdoutLine: {'line': b'-- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/ament_index/resource_index/package_run_dependencies/tf\n'}
+[11.123716] (tf) StdoutLine: {'line': b'-- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/ament_index/resource_index/parent_prefix_path/tf\n'}
+[11.123850] (tf) StdoutLine: {'line': b'-- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/environment/ament_prefix_path.sh\n'}
+[11.124072] (tf) StdoutLine: {'line': b'-- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/environment/path.sh\n'}
+[11.124197] (tf) StdoutLine: {'line': b'-- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/local_setup.bash\n'}
+[11.124387] (tf) StdoutLine: {'line': b'-- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/local_setup.sh\n'}
+[11.124444] (tf) StdoutLine: {'line': b'-- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/local_setup.zsh\n'}
+[11.124494] (tf) StdoutLine: {'line': b'-- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/ament_index/resource_index/packages/tf\n'}
+[11.124539] (tf) StdoutLine: {'line': b'-- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/cmake/tfConfig.cmake\n'}
+[11.124582] (tf) StdoutLine: {'line': b'-- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/cmake/tfConfig-version.cmake\n'}
+[11.124625] (tf) StdoutLine: {'line': b'-- Installing: /home/yx/code/ros2study/2/src/tf/install/tf/share/tf/package.xml\n'}
+[11.128630] (tf) CommandEnded: {'returncode': 0}
+[11.166371] (tf) JobEnded: {'identifier': 'tf', 'rc': 0}
+[11.167662] (-) EventReactorShutdown: {}

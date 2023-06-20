@@ -1,0 +1,8 @@
+source;share/ntf/hook/cmake_prefix_path.ps1
+source;share/ntf/hook/cmake_prefix_path.dsv
+source;share/ntf/hook/cmake_prefix_path.sh
+source;share/ntf/local_setup.bash
+source;share/ntf/local_setup.dsv
+source;share/ntf/local_setup.ps1
+source;share/ntf/local_setup.sh
+source;share/ntf/local_setup.zsh

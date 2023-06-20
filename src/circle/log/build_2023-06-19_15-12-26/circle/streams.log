@@ -1,0 +1,56 @@
+[0.011s] Invoking command in '/home/yx/code/ros2study/2/src/circle/build/circle': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/yx/code/ros2study/2/src/circle -DCMAKE_INSTALL_PREFIX=/home/yx/code/ros2study/2/src/circle/install/circle
+[0.067s] -- The C compiler identification is GNU 7.5.0
+[0.103s] -- The CXX compiler identification is GNU 7.5.0
+[0.106s] -- Check for working C compiler: /usr/bin/cc
+[0.157s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.158s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.214s] -- Detecting C compile features
+[0.360s] -- Detecting C compile features - done
+[0.361s] -- Check for working CXX compiler: /usr/bin/c++
+[0.417s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.417s] -- Detecting CXX compiler ABI info
+[0.474s] -- Detecting CXX compiler ABI info - done
+[0.477s] -- Detecting CXX compile features
+[0.708s] -- Detecting CXX compile features - done
+[0.709s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.726s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.726s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.870s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[0.925s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.004s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.011s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.011s] -- Looking for pthread.h
+[1.064s] -- Looking for pthread.h - found
+[1.064s] -- Looking for pthread_create
+[1.115s] -- Looking for pthread_create - not found
+[1.115s] -- Looking for pthread_create in pthreads
+[1.158s] -- Looking for pthread_create in pthreads - not found
+[1.158s] -- Looking for pthread_create in pthread
+[1.208s] -- Looking for pthread_create in pthread - found
+[1.209s] -- Found Threads: TRUE  
+[1.261s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[1.264s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[1.339s] -- Found turtlesim: 1.0.3 (/opt/ros/dashing/share/turtlesim/cmake)
+[1.348s] -- Found tf2_geometry_msgs: 0.11.6 (/opt/ros/dashing/share/tf2_geometry_msgs/cmake)
+[1.351s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/dashing/share/eigen3_cmake_module/cmake)
+[1.353s] -- Found Eigen3: TRUE (found version "3.3.4") 
+[1.386s] CMake Error at CMakeLists.txt:49 (install):
+[1.386s]   install TARGETS given target "tf_bro" which does not exist in this
+[1.386s]   directory.
+[1.386s] 
+[1.386s] 
+[1.386s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[1.423s] CMake Error at /opt/ros/dashing/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[1.423s]   ament_package_xml() package name 'circle' in '/package.xml' does not match
+[1.423s]   current PROJECT_NAME 'tf'.  You must call project() with the same package
+[1.423s]   name before.
+[1.423s] Call Stack (most recent call first):
+[1.423s]   /opt/ros/dashing/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.423s]   CMakeLists.txt:64 (ament_lint_auto_find_test_dependencies)
+[1.423s] 
+[1.424s] 
+[1.424s] -- Configuring incomplete, errors occurred!
+[1.424s] See also "/home/yx/code/ros2study/2/src/circle/build/circle/CMakeFiles/CMakeOutput.log".
+[1.424s] See also "/home/yx/code/ros2study/2/src/circle/build/circle/CMakeFiles/CMakeError.log".
+[1.428s] Invoked command in '/home/yx/code/ros2study/2/src/circle/build/circle' returned '1': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/bin/cmake /home/yx/code/ros2study/2/src/circle -DCMAKE_INSTALL_PREFIX=/home/yx/code/ros2study/2/src/circle/install/circle
